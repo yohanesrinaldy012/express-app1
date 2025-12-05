@@ -20,7 +20,7 @@ function createServer() {
 }
 
 if (require.main === module) {
-  const port = process.env.PORT || 3000;
+  const port = process.env.PORT || 3030;
   createServer().listen(port, () => {
     console.log(`app1 listening on ${port}`);
   });
